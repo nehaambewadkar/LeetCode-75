@@ -16,5 +16,5 @@ public:
         }
 
         return i == s.size();
-    }
+   }
 };
