@@ -27,9 +27,9 @@ public:
 
             // Current window is valid
             int length = right - left + 1;
-            maxLength = max(maxLength, length);
+            maxlength = max(maxlength, length);
         }
 
-        return maxLength;
+        return maxlength;
     }
 };
