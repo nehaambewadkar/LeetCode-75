@@ -10,7 +10,7 @@ public:
             windowSum += nums[i];
         }
 
-        int maxSum = windowSum;
+        int maxsum = windowSum;
 
         // Slide the window
         for (int i = k; i < nums.size(); i++)
@@ -18,9 +18,9 @@ public:
             windowSum += nums[i];
             windowSum -= nums[i - k];
 
-            maxSum = max(maxSum, windowSum);
+            maxsum = max(maxsum, windowSum);
         }
 
-        return (double)maxSum / k;
+        return (double)maxsum / k;
     }
 };
