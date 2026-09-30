@@ -1,6 +1,6 @@
 class Solution {
 public:
-    string mergeAlternately(string word1, string word2) {
+    string mergealternately(string word1, string word2) {
         
         string result="";
        for (int i = 0; i < max(word1.size(), word2.size()); i++)
