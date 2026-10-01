@@ -34,9 +34,9 @@ public:
                 count--;
             }
 
-            maxCount = max(maxCount, count);
+            maxCount = max(maxcount, count);
         }
 
-        return maxCount;
+        return maxcount;
     }
 };
